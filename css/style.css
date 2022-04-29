@@ -146,6 +146,7 @@ button {
     max-width: 359px;
     background-color: #2f3341;
     padding: 15px;
+    border-radius: 0px 10px 0px 0px;
     height: 100%;
 }
 
