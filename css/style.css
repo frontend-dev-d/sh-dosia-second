@@ -364,7 +364,6 @@ button {
     margin-left: 20px;
 }
 
-
 .hero {
     margin-right: 11px;
     margin-left: 14px;
@@ -382,6 +381,7 @@ button {
     background: rgba(47, 51, 65, 0.8);
     border-radius: 15px;
     margin-bottom: 14px;
+    height: 95px;
 }
 
 .profile-top {
@@ -563,7 +563,7 @@ button {
 }
 
 .referal-container {
-    width: 975px;
+    width: 550px;
 }
 
 .referal-item {
@@ -604,7 +604,7 @@ button {
 }
 
 .referal-form-inp {
-    width: 952px;
+    width: 502px;
     background: #20232D;
     border-radius: 12px;
     padding: 9px 20px 9px 18px;
@@ -616,7 +616,7 @@ button {
 }
 
 .referal-form-input {
-    width: 880px;
+    width: 430px;
     border: none;
     background: transparent;
     font-weight: 400;
@@ -639,10 +639,15 @@ button {
 }
 
 .referal-card-large {
-    width: 460px;
-    padding: 17px 26px 23px 26px;
+    width: 550px;
+    padding: 17px 38px 23px 26px;
     background: rgba(47, 51, 65, 0.8);
     border-radius: 12px;
+}
+
+.referal-card-large {
+    display: flex;
+    justify-content: space-between;
 }
 
 .referal-large-top {
@@ -669,7 +674,7 @@ button {
 }
 
 .referal-btn {
-    width: 100%;
+    width: 407px;
     background: #20232D;
     border-radius: 12px;
     font-weight: 400;
@@ -682,8 +687,6 @@ button {
     padding: 13px;
     cursor: pointer;
 }
-
-
 
 .referal-card {
     padding: 14px 21px 42px 22px;
@@ -701,6 +704,24 @@ button {
     margin-top: 0;
     line-height: 18px;
     color: #FFFFFF;
+}
+
+.referal-card-item:not(:last-child) {
+    margin-bottom: 32px;
+    margin-top: 10px;
+}
+
+.referal-card-item {
+    display: flex;
+    align-items: center;
+}
+
+.referal-card-item span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 12px;
 }
 
 .referal-card-count {
@@ -770,4 +791,64 @@ button {
 
 .referal-type-item.referal-item-dark {
     background: #20232D;
+}
+
+.inventar {
+    width: 1003px;
+}
+
+.inventar-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 33px 33px 25.5px;
+    background: rgba(47, 51, 65, 0.8);
+    border-radius: 15px;
+    margin-bottom: 14px;
+}
+
+.inventar-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.inventar-title img {
+    margin-right: 15px;
+}
+
+.inventar-radio {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.inventar-radio img {
+    margin-left: 10px;
+}
+
+.inventar-empty {
+    background: rgba(47, 51, 65, 0.8);
+    border-radius: 15px;
+    width: 100%;
+    height: 905px;
+    position: relative;
+}
+
+.inventar-empty-img,
+.inventar-empty-img img {
+    position: absolute;
+    bottom: 50%;
+    transform: translateX(-50%);
+    left: 50%;
 }
