@@ -839,7 +839,7 @@ button {
 
 .inventar-empty {
     background: rgba(47, 51, 65, 0.8);
-    border-radius: 15px;
+    border-radius: 12px;
     width: 100%;
     height: 905px;
     position: relative;
