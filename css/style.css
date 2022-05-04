@@ -380,7 +380,6 @@ button {
     padding: 14px 50px 14px 14px;
     background: rgba(47, 51, 65, 0.8);
     border-radius: 15px;
-    margin-bottom: 14px;
     height: 95px;
 }
 
@@ -801,10 +800,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 33px 33px 33px 25.5px;
+    padding: 31px 33px 33px 25.5px;
     background: rgba(47, 51, 65, 0.8);
     border-radius: 15px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
 .inventar-title {
